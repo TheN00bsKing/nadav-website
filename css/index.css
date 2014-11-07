@@ -111,9 +111,7 @@
 		}
 		
 		.my-sticky-element{
-			-webkit-transition: 1s;
-			-o-transition:  1s;
-			transition:  1s;
+
 			
 		}
 
@@ -130,7 +128,7 @@
 			-webkit-transition: 0.3s;
 			-o-transition: 0.3s;
 			transition: 0.3s;
-			font-family: ubuntu;
+			font-family: roboto;
 			display: none;
 			z-index: 10;
 
