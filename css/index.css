@@ -107,15 +107,13 @@
 			width: 100%;
 			font-family: open-sans;
 			font-size: 19px;
-			visibility: visible;
 			
 		}
 		
 		.my-sticky-element{
-			visibility: hidden;
-			-webkit-transition: ease 1s;
-			-o-transition: ease 1s;
-			transition: ease 1s;
+			-webkit-transition: 1s;
+			-o-transition:  1s;
+			transition:  1s;
 			
 		}
 
