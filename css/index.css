@@ -172,7 +172,7 @@
 
 
        .twitter {
-           font-family: socicon !important;
+           font-family: socicon ;
 		   font-size: 40px;
 		   color: white;
 		   padding-left: 70px;
@@ -184,7 +184,7 @@
 
         }
        .facebook {
-           font-family: socicon !important;
+           font-family: socicon ;
 		   font-size: 40px;
 		   color: white;
 		   padding-left: 70px;
@@ -196,7 +196,7 @@
 
         }
        .google {
-           font-family: socicon !important;
+           font-family: socicon ;
 		   font-size: 40px;
 		   color: white;
 		   padding-left: 70px;
@@ -209,7 +209,7 @@
         }
 
 	   .google:hover {
-           font-family: socicon !important;
+           font-family: socicon ;
 		   font-size: 40px;
 		   color: red;
 		   padding-left: 70px;
@@ -219,7 +219,7 @@
         }
 
 		.facebook:hover {
-           font-family: socicon !important;
+           font-family: socicon ;
 		   font-size: 40px;
 		   color: blue;
 		   padding-left: 70px;
@@ -229,7 +229,7 @@
         }
 
 	   .twitter:hover {
-           font-family: socicon !important;
+           font-family: socicon ;
 		   font-size: 40px;
 		   color: cornflowerblue;
 		   padding-left: 70px;
