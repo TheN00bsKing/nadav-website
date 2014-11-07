@@ -89,10 +89,6 @@
 			padding: 20px;
 			font-family: open-sans;
 			font-size: 19.5px;
-			-webkit-transition: 0.5s;
-			-o-transition: 0.5s;
-			transition: 0.5s;
-	
 		}
 		a{
 			text-decoration: none;
@@ -110,10 +106,6 @@
 			
 		}
 		
-		.my-sticky-element{
-
-			
-		}
 
 		.scrollup{
 			position: fixed;
@@ -130,7 +122,6 @@
 			transition: 0.3s;
 			font-family: roboto;
 			display: none;
-			z-index: 10;
 
 		}
 
