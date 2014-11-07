@@ -50,18 +50,11 @@
 	<a href="#" class="scrollup">back to top</a>
 	
 	<footer>
-		<div class="outer">
-			<div class="inner">
-				<div class="centerd">
-				<br>
-				<br>
-					<a href="google.co.il"><span class="twitter">a</span></a>
-					<a href="google.co.il"><span class="facebook">b</span></a>
-					<a href="google.co.il"><span class="google">c</span></a>
-					<br>
-					<br>
-				</div>
-			</div>
+		<div class="footer-container">
+
+			<a href="google"><span class="twitter">a</span></a>
+			<a href="google"><span class="facebook">b</span></a>
+			<a href="google"><span class="google">c</span></a>
 		</div>
 	</footer>
 	
@@ -84,9 +77,9 @@
 	  $(document).ready(function () {
 		  $(window).scroll(function () {
 			  if ($(this).scrollTop() > 400) {
-              $('.scrollup').fadeIn();
+              $('.scrollup').fadeIn(200);
 			  } else {
-              $('.scrollup').fadeOut();
+              $('.scrollup').fadeOut(200);
 			  }
 		  });
 		  $('.scrollup').click(function () {

@@ -113,7 +113,7 @@
 
 		.scrollup{
 			position: fixed;
-			bottom: 2em;
+			bottom: 3em;
 			right: 2em;
 			text-decoration: none;
 			color: white;
@@ -132,26 +132,25 @@
 		.scrollup:hover{
 			background-color: gray;
 		}
+
 		footer{
 			width: 100%;
 			height: 120px;
 			background-color: #646363;
 			bottom: 0;
-			margin-bottom: -10px;
 		}
 
-		.copyrights{
-			font-family: roboto;
-			font-size: 10px;
-			text-align: center;
-			left: 0;
-			opacity: 0.5;
-			color: white;
-	
+		.footer-container{
 			
+			width: 100%;
+			height: 100%;
+			display: table;
+			text-align: center;
 		}
 
 
+
+			
 
 		@media(min-width: 900px){
 			
@@ -164,231 +163,10 @@
 			-o-transition: 0.3s;
 			transition: 0.3s;
 		}
-			
-			
-       .twitter {
-           font-family: socicon ;
-		   font-size: 40px;
-		   color: white;
-		   padding-left: 50px;
-		   padding-right: 50px;
-		   opacity: 0.7;
-		   -webkit-transition: 0.3s;
-			-o-transition: 0.3s;
-			transition: 0.3s;
-
-        }
-       .facebook {
-           font-family: socicon ;
-		   font-size: 40px;
-		   color: white;
-		   padding-left: 50px;
-		   padding-right: 50px;
-		   opacity: 0.7;
-		   -webkit-transition: 0.3s;
-			-o-transition: 0.3s;
-			transition: 0.3s;
-
-        }
-       .google {
-           font-family: socicon ;
-		   font-size: 40px;
-		   color: white;
-		   padding-left: 50px;
-		   padding-right: 50px;
-		   opacity: 0.7;
-		   -webkit-transition: 0.3s;
-			-o-transition: 0.3s;
-			transition: 0.3s;
-
-        }
-
-	   .google:hover {
-           font-family: socicon ;
-		   font-size: 40px;
-		   color: red;
-		   padding-left: 50px;
-		   padding-right: 50px;
-
-
-        }
-
-		.facebook:hover {
-           font-family: socicon ;
-		   font-size: 40px;
-		   color: blue;
-		   padding-left: 50px;
-		   padding-right: 50px;
-	
-
-        }
-
-	   .twitter:hover {
-           font-family: socicon ;
-		   font-size: 40px;
-		   color: cornflowerblue;
-		   padding-left: 50px;
-		   padding-right: 50px;
-	
-
-        }
-		
-
+				
+      
 		}
 
-@media(min-width:650px){
-	
-	
-			
-       .twitter {
-           font-family: socicon ;
-		   font-size: 40px;
-		   color: white;
-		   padding-left: 30px;
-		   padding-right: 30px;
-		   opacity: 0.7;
-		   -webkit-transition: 0.3s;
-			-o-transition: 0.3s;
-			transition: 0.3s;
-
-        }
-       .facebook {
-           font-family: socicon ;
-		   font-size: 40px;
-		   color: white;
-		   padding-left: 30px;
-		   padding-right: 30px;
-		   opacity: 0.7;
-		   -webkit-transition: 0.3s;
-			-o-transition: 0.3s;
-			transition: 0.3s;
-
-        }
-       .google {
-           font-family: socicon ;
-		   font-size: 40px;
-		   color: white;
-		   padding-left: 30px;
-		   padding-right: 30px;
-		   opacity: 0.7;
-		   -webkit-transition: 0.3s;
-			-o-transition: 0.3s;
-			transition: 0.3s;
-
-        }
-
-	   .google:hover {
-           font-family: socicon ;
-		   font-size: 40px;
-		   color: red;
-		   padding-left: 30px;
-		   padding-right: 30px;
-
-
-        }
-
-		.facebook:hover {
-           font-family: socicon ;
-		   font-size: 40px;
-		   color: blue;
-		   padding-left: 30px;
-		   padding-right: 30px;
-	
-
-        }
-
-	   .twitter:hover {
-           font-family: socicon ;
-		   font-size: 40px;
-		   color: cornflowerblue;
-		   padding-left: 30px;
-		   padding-right: 30px;
-	
-
-        }
-}
-
-
-		@media(max-width: 600px){
-			
-		nav ul li{
-			display: inline-block;
-			padding: 20px;
-			font-family: open-sans;
-			font-size: 19px;
-			-webkit-transition: 0.3s;
-			-o-transition: 0.3s;
-			transition: 0.3s;
-		}
-			      .twitter {
-           font-family: socicon ;
-		   font-size: 40px;
-		   color: white;
-		   padding-left: 10px;
-		   padding-right: 10px;
-		   opacity: 0.7;
-		   -webkit-transition: 0.3s;
-			-o-transition: 0.3s;
-			transition: 0.3s;
-
-        }
-       .facebook {
-           font-family: socicon ;
-		   font-size: 40px;
-		   color: white;
-		   padding-left: 5px;
-		   padding-right: 5px;
-		   opacity: 0.7;
-		   -webkit-transition: 0.3s;
-			-o-transition: 0.3s;
-			transition: 0.3s;
-
-        }
-       .google {
-           font-family: socicon ;
-		   font-size: 40px;
-		   color: white;
-		   padding-left: 5px;
-		   padding-right: 5px;
-		   opacity: 0.7;
-		   -webkit-transition: 0.3s;
-			-o-transition: 0.3s;
-			transition: 0.3s;
-
-        }
-
-	   .google:hover {
-           font-family: socicon ;
-		   font-size: 40px;
-		   color: red;
-		   padding-left: 5px;
-		   padding-right: 5px;
-
-
-        }
-
-		.facebook:hover {
-           font-family: socicon ;
-		   font-size: 40px;
-		   color: blue;
-		   padding-left: 5px;
-		   padding-right: 5px;
-	
-
-        }
-
-	   .twitter:hover {
-           font-family: socicon ;
-		   font-size: 40px;
-		   color: cornflowerblue;
-		   padding-left: 5px;
-		   padding-right: 5px;
-	
-
-        }
-			
-
-		}
 
 
 		@media(max-width: 400px){
@@ -402,34 +180,47 @@
 			-o-transition: 0.3s;
 			transition: 0.3s;
 		}
-			      .twitter {
+			  .twitter {
            font-family: socicon ;
 		   font-size: 40px;
 		   color: white;
+		   padding:0;
 		   opacity: 0.7;
 		   -webkit-transition: 0.3s;
 			-o-transition: 0.3s;
 			transition: 0.3s;
+		   vertical-align: middle;
+		   display: inline-block;
+
+		   
 
         }
        .facebook {
            font-family: socicon ;
 		   font-size: 40px;
 		   color: white;
+		   padding: 0;
 		   opacity: 0.7;
 		   -webkit-transition: 0.3s;
 			-o-transition: 0.3s;
 			transition: 0.3s;
+		   vertical-align: middle;
+		   display: inline-block;
+
 
         }
        .google {
            font-family: socicon ;
 		   font-size: 40px;
 		   color: white;
+		   padding: 0;
 		   opacity: 0.7;
 		   -webkit-transition: 0.3s;
 			-o-transition: 0.3s;
 			transition: 0.3s;
+		   vertical-align: middle;
+		   display: inline-block;
+	
 
         }
 
@@ -437,7 +228,7 @@
            font-family: socicon ;
 		   font-size: 40px;
 		   color: red;
-	
+
 
 
         }
@@ -455,11 +246,88 @@
            font-family: socicon ;
 		   font-size: 40px;
 		   color: cornflowerblue;
-	
+
+
+        }
+		
+
+			
+
+		}
+
+		
+		@media(max-width: 578px){
+			  .twitter {
+           font-family: socicon ;
+		   font-size: 40px;
+		   color: white;
+		   padding: 0;
+		   opacity: 0.7;
+		   -webkit-transition: 0.3s;
+			-o-transition: 0.3s;
+			transition: 0.3s;
+		   vertical-align: middle;
+		   display: inline-block;
+
+		   
+
+        }
+       .facebook {
+           font-family: socicon ;
+		   font-size: 40px;
+		   color: white;
+		   padding: 0;
+		   opacity: 0.7;
+		   -webkit-transition: 0.3s;
+			-o-transition: 0.3s;
+			transition: 0.3s;
+		   vertical-align: middle;
+		   display: inline-block;
+
+
+        }
+       .google {
+           font-family: socicon ;
+		   font-size: 40px;
+		   color: white;
+		   padding: 0;
+		   opacity: 0.7;
+		   -webkit-transition: 0.3s;
+			-o-transition: 0.3s;
+			transition: 0.3s;
+		   vertical-align: middle;
+		   display: inline-block;
 	
 
         }
-			
+
+	   .google:hover {
+           font-family: socicon ;
+		   font-size: 40px;
+		   color: red;
+
+
+
+        }
+
+		.facebook:hover {
+           font-family: socicon ;
+		   font-size: 40px;
+		   color: blue;
+
+	
+
+        }
+
+	   .twitter:hover {
+           font-family: socicon ;
+		   font-size: 40px;
+		   color: cornflowerblue;
+
+
+        }
+		
+
 
 		}
 		
@@ -491,36 +359,43 @@
            font-family: socicon ;
 		   font-size: 40px;
 		   color: white;
-		   padding-left: 70px;
-		   padding-right: 70px;
+		   padding: 1em;
 		   opacity: 0.7;
 		   -webkit-transition: 0.3s;
 			-o-transition: 0.3s;
 			transition: 0.3s;
+		   vertical-align: middle;
+		   display: inline-block;
+
+		   
 
         }
        .facebook {
            font-family: socicon ;
 		   font-size: 40px;
 		   color: white;
-		   padding-left: 70px;
-		   padding-right: 70px;
+		   padding: 1em;
 		   opacity: 0.7;
 		   -webkit-transition: 0.3s;
 			-o-transition: 0.3s;
 			transition: 0.3s;
+		   vertical-align: middle;
+		   display: inline-block;
+
 
         }
        .google {
            font-family: socicon ;
 		   font-size: 40px;
 		   color: white;
-		   padding-left: 70px;
-		   padding-right: 70px;
+		   padding: 1em;
 		   opacity: 0.7;
 		   -webkit-transition: 0.3s;
 			-o-transition: 0.3s;
 			transition: 0.3s;
+		   vertical-align: middle;
+		   display: inline-block;
+	
 
         }
 
@@ -528,8 +403,7 @@
            font-family: socicon ;
 		   font-size: 40px;
 		   color: red;
-		   padding-left: 70px;
-		   padding-right: 70px;
+
 
 
         }
@@ -538,8 +412,7 @@
            font-family: socicon ;
 		   font-size: 40px;
 		   color: blue;
-		   padding-left: 70px;
-		   padding-right: 70px;
+
 	
 
         }
@@ -548,9 +421,7 @@
            font-family: socicon ;
 		   font-size: 40px;
 		   color: cornflowerblue;
-		   padding-left: 70px;
-		   padding-right: 70px;
-	
+
 
         }
 		
