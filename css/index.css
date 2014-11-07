@@ -107,11 +107,3 @@
 			width: 100%;
 		}
 
-		@media screen and(min-width: 400px;){
-			
-			nav ul li{
-				font-size: 19px;
-				padding: 10px;
-				
-			}
-		}
