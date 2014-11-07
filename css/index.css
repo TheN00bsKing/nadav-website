@@ -1,6 +1,5 @@
 	
 	body{
-			
 			padding: 0;
 			margin: 0;
 		}
@@ -69,10 +68,45 @@
 			position: relative;
 			text-align: center;
 		}
+		
+		nav ul{
+			background-color: #38A366;
+			overflow: hidden;
+			color: white;
+			padding: 0;
+			text-align: center;
+			margin-top: -2%;
 
-		@media (min-width: 600px) {
+		}
+		
+		nav ul li:hover{
 			
-			
-			
+			background-color: rgba(91, 91, 91, 0.77);
+		}
 
-		  }
+		nav ul li{
+			display: inline-block;
+			padding: 20px;
+			font-family: roboto;
+			font-size: 25px;
+			-webkit-transition: 0.5s;
+			-o-transition: 0.5s;
+			transition: 0.5s;
+			
+		}
+		a{
+			text-decoration: none;
+			color: inherit;
+	
+		}
+		
+
+		@media screen and(max-width: 580px;){
+			
+			nav ul li{
+				width: 100%;
+				box-sizing: border-box;
+				padding: 15px;
+				
+			}
+		}
