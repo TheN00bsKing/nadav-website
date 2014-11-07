@@ -98,12 +98,6 @@
 			text-decoration: none;
 			color: inherit;
 		}
-		.my-sticky-element{
-			-webkit-transition: 0.2s;
-			-o-transition: 0.2s;
-			transition: 0.2s;
-		}
-		
 		.my-sticky-element.stuck {
 			position: fixed;
 			box-shadow: 0 2px 4px rgba(0, 0, 0, .6);
