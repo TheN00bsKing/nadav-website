@@ -88,10 +88,13 @@
 			display: inline-block;
 			padding: 20px;
 			font-family: open-sans;
-			font-size: 25px;
+			font-size: 19.5px;
 			-webkit-transition: 0.5s;
 			-o-transition: 0.5s;
 			transition: 0.5s;
+			-webkit-transition: ease 1s;
+			-o-transition: ease 1s;
+			transition: ease 1s;
 			
 		}
 		a{
@@ -105,6 +108,14 @@
 			margin-top: 0.009em;
 			padding-top: 5px;
 			width: 100%;
+			font-family: open-sans;
+			font-size: 19px;
+			visibility: visible;
+			
+		}
+		
+		.my-sticky-element{
+			visibility: hidden;
 		}
 
 		.scrollup{
@@ -130,17 +141,3 @@
 			background-color: gray;
 		}
 		
-		@media (max-width = 400px;){
-			
-					nav ul li{
-			display: inline-block;
-			padding: 20px;
-			font-family: open-sans;
-			font-size: 19px;
-			-webkit-transition: 0.5s;
-			-o-transition: 0.5s;
-			transition: 0.5s;
-			
-		}
-			
-		}
