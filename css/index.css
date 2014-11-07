@@ -108,7 +108,7 @@
 			width: 100%;
 		}
 
-		.go-top{
+		.scrollup{
 			position: fixed;
 			bottom: 2em;
 			right: 2em;
@@ -122,8 +122,9 @@
 			-o-transition: 0.3s;
 			transition: 0.3s;
 			font-family: ubuntu;
+			visibility: hidden;
 		}
 
-		.go-top:hover{
-			background-color: #38A366;
+		.scrollup:hover{
+			background-color: gray;
 		}
