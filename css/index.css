@@ -98,6 +98,11 @@
 			text-decoration: none;
 			color: inherit;
 		}
+		.my-sticky-element{
+			-webkit-transition: 0.2s;
+			-o-transition: 0.2s;
+			transition: 0.2s;
+		}
 		
 		.my-sticky-element.stuck {
 			position: fixed;
