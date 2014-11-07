@@ -65,13 +65,12 @@
 	</script>
 	<script type="text/javascript">
 	
-		<script>
   $(document).ready(function () {
       $(window).scroll(function () {
-          if ($(this).scrollTop() > 100) {
-              $('.scrollup').fadeIn();
+          if ($(this).scrollTop() > 400) {
+              $('.scrollup').fadeIn(600);
           } else {
-              $('.scrollup').fadeOut();
+              $('.scrollup').fadeOut(600);
           }
       });
       $('.scrollup').click(function () {

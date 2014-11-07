@@ -122,6 +122,8 @@
 			-o-transition: 0.3s;
 			transition: 0.3s;
 			font-family: ubuntu;
+			display: none;
+			z-index: 10;
 
 		}
 
