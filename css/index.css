@@ -92,10 +92,7 @@
 			-webkit-transition: 0.5s;
 			-o-transition: 0.5s;
 			transition: 0.5s;
-			-webkit-transition: ease 1s;
-			-o-transition: ease 1s;
-			transition: ease 1s;
-			
+	
 		}
 		a{
 			text-decoration: none;
@@ -116,6 +113,10 @@
 		
 		.my-sticky-element{
 			visibility: hidden;
+			-webkit-transition: ease 1s;
+			-o-transition: ease 1s;
+			transition: ease 1s;
+			
 		}
 
 		.scrollup{
