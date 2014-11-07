@@ -1,9 +1,14 @@
 @font-face {
     font-family: roboto;
-    src: url(fonts/Ubuntu-L.ttf);
+    src: url(../fonts/Ubuntu-L.ttf);
 }
 
 @font-face {
     font-family: ubuntu;
-    src: url(fonts/Roboto-light.ttf);
+    src: url(../fonts/Roboto-light.ttf);
+}
+
+@font-face {
+    font-family: open-sans;
+    src: url(../fonts/OpenSans-Light.ttf);
 }

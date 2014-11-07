@@ -87,7 +87,7 @@
 		nav ul li{
 			display: inline-block;
 			padding: 20px;
-			font-family: roboto;
+			font-family: open-sans;
 			font-size: 19px;
 			-webkit-transition: 0.5s;
 			-o-transition: 0.5s;
@@ -108,3 +108,22 @@
 			width: 100%;
 		}
 
+		.go-top{
+			position: fixed;
+			bottom: 2em;
+			right: 2em;
+			text-decoration: none;
+			color: white;
+			background-color: #46cc7f;
+			font-size: 14px;
+			padding: 1em;
+			border-radius: 10px;
+			-webkit-transition: 0.3s;
+			-o-transition: 0.3s;
+			transition: 0.3s;
+			font-family: ubuntu;
+		}
+
+		.go-top:hover{
+			background-color: #38A366;
+		}
