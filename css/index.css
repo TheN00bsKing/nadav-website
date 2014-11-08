@@ -23,6 +23,7 @@
 		
 			color: white;
 			visibility: hidden;
+
 		}
 		.intro{
 
@@ -30,6 +31,7 @@
 			font-family: ubuntu;
 			color: #626060;
 			display: table-row;
+			visibility: visible;
 		}
 
 		.container-top{
