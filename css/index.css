@@ -440,6 +440,7 @@
 			padding: 0;
 			text-align: center;
 			overflow: hidden;
+			margin-top: 5%;
 		}
 
        .twitter {
@@ -511,6 +512,14 @@
 
         }
 
+		.single{
+			font-family: open-sans;
+			font-size: 30px;
+			padding: 0;
+			margin-top: 10%;
+			text-align: center;
+		}
+
 
 
 
@@ -519,6 +528,7 @@
 
 section.contact {
 	padding-bottom: 210px;
+	margin-top: 3%;
 }
 
 section.contact > a {
