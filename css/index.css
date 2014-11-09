@@ -1,9 +1,9 @@
-	
+
 	body,html{
 			padding: 0;
 			margin: 0;
 		}
-			
+
 /*-- header --*/
 		.rounded{
 			width: 150px;
@@ -18,24 +18,24 @@
 			margin-left: 15%;
 			display: table-row;
 		}
-		
+
 		.intro{
 
 			font-size: 20px;
-			font-family: ubuntu;
+			font-family: roboto;
 			color: #626060;
 			display: table-row;
 			visibility: visible;
 		}
 
 		.container-top{
-		
+
 			width: 100%;
 			height: 400px;
 			background-color: #46cc7f;
-			
+
 		}
-		
+
 		.container-top h1{
 			font-size: 90px;
 			font-family: roboto;
@@ -43,29 +43,29 @@
 			margin-top: 50%;
 
 		}
-		
+
 		.outer{
-			
+
 			width: 100%;
 			height: 100%;
 			display: table;
-			
+
 		}
-		
+
 		.inner{
-			
+
 			display: table-cell;
 			vertical-align: middle;
 			text-align: center;
 		}
-		
+
 		.centerd{
-			
+
 			display: inline-block;
 			position: relative;
 			text-align: center;
 		}
-		
+
 		nav ul{
 			background-color: #38A366;
 			overflow: hidden;
@@ -75,9 +75,9 @@
 			margin-top: -2%;
 
 		}
-		
+
 		nav ul li:hover{
-			
+
 			background-color: rgba(91, 91, 91, 0.77);
 		}
 
@@ -104,9 +104,9 @@
 			font-family: open-sans;
 			font-size: 19px;
 			z-index: 100;
-			
+
 		}
-		
+
 /*-- back to top button --*/
 		.scrollup{
 			position: fixed;
@@ -139,7 +139,7 @@
 		}
 
 		.footer-container{
-			
+
 			width: 100%;
 			height: 100%;
 			display: table;
@@ -152,10 +152,10 @@
 		}
 
 
-/*-- media query --*/		
+/*-- media query --*/
 
 		@media(min-width: 900px){
-			
+
 		nav ul li{
 			display: inline-block;
 			padding: 20px;
@@ -165,8 +165,8 @@
 			-o-transition: 0.3s;
 			transition: 0.3s;
 		}
-				
-      
+
+
 		}
 
 
@@ -192,7 +192,7 @@
 		   vertical-align: middle;
 		   display: inline-block;
 
-		   
+
 
         }
        .facebook {
@@ -218,7 +218,7 @@
 			transition: 0.3s;
 		   vertical-align: middle;
 		   display: inline-block;
-	
+
 
         }
 
@@ -236,7 +236,7 @@
 		   font-size: 40px;
 		   color: blue;
 
-	
+
 
         }
 
@@ -247,13 +247,13 @@
 
 
         }
-		
 
-			
+
+
 
 		}
 
-		
+
 		@media(max-width: 578px){
 			  .twitter {
            font-family: socicon ;
@@ -267,12 +267,12 @@
 		   vertical-align: middle;
 		   display: inline-block;
 
-		   
+
 
         }
-			
-					.text{
-			font-family: ubuntu;
+
+		.text{
+			font-family: roboto;
 			font-size: 16px;
 			text-align: center;
 			margin-top: 60px;
@@ -305,7 +305,7 @@
 			transition: 0.3s;
 		   vertical-align: middle;
 		   display: inline-block;
-	
+
 
         }
 
@@ -323,7 +323,7 @@
 		   font-size: 40px;
 		   color: blue;
 
-	
+
 
         }
 
@@ -334,14 +334,15 @@
 
 
         }
-	
+
 		}
 
 /*-- work section --*/
 		section{
 			width: 100%;
-			height: 600px;
+			height: 650px;
 			display: table;
+
 
 		}
 
@@ -385,8 +386,12 @@
 		}
 		.work .container p{
 			visibility: visible;
-			font-family: ubuntu;
+			font-family: roboto;
 			line-height: 30px;
+		}
+
+		.holder{
+
 		}
 
 
@@ -394,15 +399,15 @@
 /*-- about section --*/
 
 		.text-block{
-			
+
 			padding: 30px;
 			color: white;
-			
+
 		}
 		.about article h1{
 			font-family: open-sans;
 			font-size: 25px;
-			
+
 		}
 		.header{
 			padding: 30px;
@@ -410,10 +415,9 @@
 
 		}
 		.text{
-			font-family: ubuntu;
+			font-family: roboto;
 			font-size: 16px;
 			text-align: center;
-			margin-top: 60px;
 
 
 		}
@@ -423,13 +427,13 @@
 			text-align: center;
 
 		}
-
-
-
-
-
-
 		
+
+
+
+
+
+
 
 
 
@@ -455,7 +459,7 @@
 		   vertical-align: middle;
 		   display: inline-block;
 
-		   
+
 
         }
        .facebook {
@@ -483,7 +487,7 @@
 			transition: 0.3s;
 		   vertical-align: middle;
 		   display: inline-block;
-	
+
 
         }
 
@@ -501,7 +505,7 @@
 		   font-size: 40px;
 		   color: blue;
 
-	
+
 
         }
 
@@ -526,196 +530,4 @@
 /*-- contact form--*/
 
 
-section.contact {
-	padding-bottom: 210px;
-	margin-top: 3%;
-}
 
-section.contact > a {
-	width: 180px;
-	height: 170px;
-
-
-	display: block;
-	margin: 0 auto 45px auto;
-	overflow: hidden;
-	text-indent: -9999px;
-	background: url('../img/budgie_wink3.png') no-repeat 0px -175px;
-
-
-}
-
-section.contact > a:hover {
-	background: url('../img/budgie_wink3.png') no-repeat 0px 0px;
-}
-
-section.contact h2 {
-	color: #4b4c51;
-	margin-bottom: 30px;
-}
-
-section.contact em {
-	color: #999999;
-	font-style: normal;
-}
-
-section.contact h6 {
-	margin-bottom: 30px;
-}
-
-section.contact .socialicons {
-	width: 222px;
-	height: 72px;
-	margin: 0 auto 30px auto;
-	clear: both;
-}
-
-section.contact .socialicons a {
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	margin: 12px;
-	background: url('../img/sprites.png') no-repeat -1px -1px;
-	display: block;
-	float: left;
-	text-indent: -9999px;
-	-webkit-transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-	transition: all 0.2s ease;
-}
-
-section.contact .socialicons a:hover {
-
-	margin-top: 7px;
-}
-
-section.contact .socialicons a:active {
-
-	opacity: 0.8;}
-
-section.contact .socialicons a[href*="twitter"] {
-	background-position: -55px 1px;
-}
-
-section.contact .socialicons a[href*="dribbble"] {
-	background-position: -104px 1px;
-}
-
-section.contact .socialicons a[href*="mailto:"] {
-	background-position: -154px 1px;
-}
-
-
-section.contact form {
-	width: 600px;
-	background-color: #eeeeee;
-	border-radius: 6px;
-	margin: 20px auto;
-	display: block;
-	padding: 10px;
-	position: relative;
-}
-
-.contactform h6 {
-	padding: 60px 0px 30px 0px;
-	color: #999;
-	line-height: 36px;
-}
-
-section.contact input {
-	width: 260px;
-	height: 50px;
-	padding: 0px 0px 0px 20px;
-	border-radius: 3px;
-	background-color: white;
-	border: none;
-	color: #46cc7f;
-	margin: 10px;
-	float: left;
-}
-
-section.contact input:focus,
-section.contact input:active,
-section.contact textarea:focus,
-section.contact textarea:active {
-
-	outline-color: #46cc7f;
-	outline-style: solid;
-	outline-width: 2px;
-}
-
-section.contact textarea {
-	width: 540px;
-	height: 80px;
-	padding: 20px;
-	color: #46cc7f;
-	border-radius: 3px;
-	background-color: white;
-	margin: 10px;
-	border: none;
-	resize: vertical;
-}
-
-section.contact button {
-	display: block;
-	padding: 15px 30px;
-	background-color: #46cc7f;
-		-webkit-background-clip: padding-box;
-		-moz-background-clip: padding-box;
-	background-clip: padding-box;
-	border: none;
-	color: white;
-	border-radius: 6px;
-	margin: 10px 178.50px;
-	position: absolute;
-	bottom: -100px;
-	-webkit-transition: background-color 0.3s ease;
-	-moz-transition: background-color 0.3s ease;
-	transition: background-color 0.3s ease;
-}
-
-section.contact button:hover {
-	background-color: gray;
-}
-
-section.contact button:active {
-	background-color: #d4618c;
-	
-}
-
-
-
-
-		section.contact {
-		padding-bottom: 50px;
-	}
-	@media (max-width: 650px){
-	
-	section.contact form {
-		width: 90%;
-	}
-	
-	section.contact input {
-		width: 85%;
-		margin: 5%;
-		padding-left: 5%;
-	}
-	
-	section.contact textarea {
-		width: 85%;
-		margin: 5%;
-		padding: 5% 0 5% 5%;
-
-	}
-	
-	section.contact button {
-		position: relative;
-		bottom: auto;
-		margin: 10px auto;
-	}
-	
-	.return_scroll {
-	
-	display: none;
-	}
-	}
