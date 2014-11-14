@@ -165,8 +165,6 @@
 			-o-transition: 0.3s;
 			transition: 0.3s;
 		}
-
-
 		}
 
 		@media(max-width: 400px){
@@ -192,7 +190,7 @@
 		}
 
 
-		@media(max-width: 578px){
+		@media(max-width: 761px){
 
 
 			.text{
@@ -203,6 +201,19 @@
 				padding-bottom: 25px;
 			}
 		}
+
+		@media(max-width: 578px){
+			
+			.text{
+				font-family: roboto;
+				font-size: 16px;
+				text-align: center;
+				padding-top: 25px;
+				padding-bottom: 25px;
+			}
+			
+		}
+
 
 /*-- work section --*/
 		section{
@@ -395,7 +406,7 @@
 /*-- contact form--*/
 
 section.contact{
-	height: 490px;
+	height: 450px;
 }
 
 
