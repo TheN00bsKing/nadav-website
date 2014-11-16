@@ -226,30 +226,40 @@
 			background-color: #4a3f60;
 		}
 
-		.poster-item{
+		.reveal-wraper{
 			width: 150px;
 			height: 200px;
-			background-color: gray;
-			z-index: -20;
+			background-color: white;
 			box-shadow: 0 2px 4px rgba(0, 0, 0, .6);
-			margin:0 auto;
-			-webkit-transition: 0.3s;
-			-o-transition: 0.3s;
-			transition: 0.3s;
+			border: solid 2px black;
+			overflow: hidden;
+			z-index: -20;
+			margin: 0 auto;
 		}
 
-		.poster-item:hover{
-			-webkit-filter: blur(2px);
-			-o-filter: blur(2px) ;
-			filter: blur(2px) ;
+		.reveal-content{
+		}
+
+		.reveal-wraper:hover .reveal-top{
+			left: -100%;
+		}
+
+		.reveal-top{
+			background-color:  #646363;
+			width: 150px;
+			height: 200px;
+			position: relative;
+			top: 0;
+			left: 0;
+			-webkit-transition: left 0.3s ease ;
+			-o-transition: left 0.3s ease ;
+			transition: left 0.3s ease;
 		}
 
 		h5{
-			font-family: open-sans;
-			color: white;
-			text-align: center;
-			padding-top: 10px;
+			visibility: hidden;
 		}
+
 		.work .container h1{
 			color: white;
 			text-align: center;
@@ -266,9 +276,6 @@
 			line-height: 30px;
 		}
 
-		.holder{
-
-		}
 
 
 
