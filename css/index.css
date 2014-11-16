@@ -98,7 +98,8 @@
 			position: fixed;
 			box-shadow: 0 2px 4px rgba(0, 0, 0, .6);
 			top: 0;
-			padding-top: 25px;
+			padding-top: 5px;
+			margin-top: 0.009px;
 			width: 100%;
 			font-family: open-sans;
 			font-size: 19px;
@@ -329,7 +330,7 @@
 
        .twitter {
            font-family: socicon ;
-		   font-size: 40px;
+		   font-size: 35px;
 		   color: black;
 		   padding: 1em;
 		   opacity: 0.7;
@@ -344,7 +345,7 @@
         }
        .facebook {
            font-family: socicon ;
-		   font-size: 40px;
+		   font-size: 35px;
 		   color: black;
 		   padding: 1em;
 		   opacity: 0.7;
@@ -358,7 +359,7 @@
         }
        .google {
            font-family: socicon ;
-		   font-size: 40px;
+		   font-size: 35px;
 		   color: black;
 		   padding: 1em;
 		   opacity: 0.7;
@@ -372,26 +373,17 @@
         }
 
 	   .google:hover {
-           font-family: socicon ;
-		   font-size: 40px;
 		   color: red;
-
-
 
         }
 
 		.facebook:hover {
-           font-family: socicon ;
-		   font-size: 40px;
 		   color: blue;
-
-
 
         }
 
 	   .twitter:hover {
-           font-family: socicon ;
-		   font-size: 40px;
+
 		   color: cornflowerblue;
 
         }
