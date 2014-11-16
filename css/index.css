@@ -98,8 +98,7 @@
 			position: fixed;
 			box-shadow: 0 2px 4px rgba(0, 0, 0, .6);
 			top: 0;
-			margin-top: 0.009em;
-			padding-top: 5px;
+			padding-top: 25px;
 			width: 100%;
 			font-family: open-sans;
 			font-size: 19px;
@@ -237,23 +236,21 @@
 			margin: 0 auto;
 		}
 
-		.reveal-content{
-		}
-
 		.reveal-wraper:hover .reveal-top{
 			left: -100%;
 		}
 
 		.reveal-top{
-			background-color:  #646363;
+			background-image: url(../images/poster3.png);
+			background-size: 150px 200px;
 			width: 150px;
 			height: 200px;
 			position: relative;
 			top: 0;
 			left: 0;
-			-webkit-transition: left 0.3s ease ;
-			-o-transition: left 0.3s ease ;
-			transition: left 0.3s ease;
+			-webkit-transition: left 0.5s ease ;
+			-o-transition: left 0.5s ease ;
+			transition: left 0.5s ease;
 		}
 
 		h5{
