@@ -168,7 +168,7 @@
 		}
 
 		@media(max-width: 400px){
-			
+
 		nav ul li{
 			display: inline-block;
 			font-family: open-sans;
@@ -177,15 +177,15 @@
 			-o-transition: 0.3s;
 			transition: 0.3s;
 		}
-			
+
 			.text{
 				font-family: roboto;
 				font-size: 16px;
 				text-align: center;
 				padding-top: 25px;
 				padding-bottom: 25px;
-	
-	
+
+
 			}
 		}
 
@@ -203,7 +203,7 @@
 		}
 
 		@media(max-width: 578px){
-			
+
 			.text{
 				font-family: roboto;
 				font-size: 16px;
@@ -211,7 +211,7 @@
 				padding-top: 25px;
 				padding-bottom: 25px;
 			}
-			
+
 		}
 
 
@@ -308,7 +308,7 @@
 			text-align: center;
 
 		}
-		
+
 
 
 
@@ -556,39 +556,39 @@ section.contact button:hover {
 
 section.contact button:active {
 	background-color: #d4618c;
-	
+
 }
 
 	section.contact {
 		padding-bottom: 50px;
 	}
 	@media (max-width: 650px){
-	
+
 	section.contact form {
 		width: 90%;
 	}
-	
+
 	section.contact input {
 		width: 85%;
 		margin: 5%;
 		padding-left: 5%;
 	}
-	
+
 	section.contact textarea {
 		width: 85%;
 		margin: 5%;
 		padding: 5% 0 5% 5%;
 
 	}
-	
+
 	section.contact button {
 		position: relative;
 		bottom: auto;
 		margin: 10px auto;
 	}
-	
+
 	.return_scroll {
-	
+
 	display: none;
 	}
-	} 
+	}
