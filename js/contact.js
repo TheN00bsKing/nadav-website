@@ -10,7 +10,7 @@ var ajaxLoaderImageURL = serverName + "images/ajaxloader.gif";
 
 
 $(function () {
-    myEmail = $("input#name").val();
+    myEmail = $("input#myEmail").val();
     var theEmailString = "";
     $("input[type='submit']").click(function () {
         theEmailString = getFormValue();
