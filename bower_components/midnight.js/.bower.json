@@ -1,0 +1,35 @@
+{
+  "name": "midnight",
+  "version": "1.0.3",
+  "description": "Switch fixed headers on the fly",
+  "main": "midnight.jquery.js",
+  "homepage": "https://github.com/Aerolab/midnight.js",
+  "license": "MIT",
+  "authors": [
+    "Aerolab <info@aerolab.co>"
+  ],
+  "keywords": [
+    "jquery",
+    "ui",
+    "scrolling",
+    "header",
+    "midnight"
+  ],
+  "ignore": [
+    "assets",
+    "index.html",
+    "AUTHORS.txt",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "_release": "1.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.3",
+    "commit": "6747aabaf6ded299f271515e52f9df4053f00249"
+  },
+  "_source": "git://github.com/Aerolab/midnight.js.git",
+  "_target": "~1.0.3",
+  "_originalSource": "midnight.js",
+  "_direct": true
+}

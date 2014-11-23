@@ -104,7 +104,6 @@
 			font-family: open-sans;
 			font-size: 19px;
 			z-index: 100;
-
 		}
 
 /*-- back to top button --*/
@@ -201,8 +200,8 @@
 				padding-bottom: 25px;
 			}
 			.about .text img{
-				width: 50px;
-				height: 50px;
+				width: 120px;
+				height: 120px;
 			}
 			
 			
@@ -219,12 +218,11 @@
 			}
 			
 			.about .text img{
-				width: 50px;
-				height: 50px;
+				width: 90px;
+				height: 90px;
 			}
 
 		}
-
 
 /*-- work section --*/
 		section{
