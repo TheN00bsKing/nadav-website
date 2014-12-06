@@ -150,6 +150,18 @@
 
 		}
 
+		i{
+			font-size: 12px;
+			color: red;
+			padding-right: 5px;
+			padding-left: 5px;
+		}
+
+		span.link{
+			text-decoration: underline;
+			color: #EAEAEA;
+		}
+
 
 /*-- media query --*/
 
@@ -242,7 +254,6 @@
 			box-shadow: 0 2px 4px rgba(0, 0, 0, .6);
 			border: solid 2px black;
 			overflow: hidden;
-			z-index: -20;
 			margin: 0 auto;
 		}
 
@@ -256,6 +267,7 @@
 			width: 150px;
 			height: 200px;
 			position: relative;
+			z-index: 20;
 			top: 0;
 			left: 0;
 			-webkit-transition: left 0.5s ease ;
